@@ -24,6 +24,7 @@
                         clifford: '#da373d',
                         'primary-btn': '#E76F51',
                         'carousel-bg': 'rgba(231, 111, 81, 0.10)',
+                        'paragraph-clr': '#6C6C6C',
                     }
                 }
             }
@@ -174,17 +175,76 @@
     <main class="md:container md:mx-auto">
 
         <!-- featured section -->
-        <div class="mt-10 md:mt-32 lg:mt-32 space-y-10">
+        <section class="mt-10 md:mt-32 lg:mt-32 space-y-10">
             <div class="text-center  ">
                 <h1 class="font-popin text-[48px] font-semibold">Fetured Bikes In This Year</h1>
                 <p class=" text-primary-btn font-semibold text-[14px]">Best bike collection</p>
             </div>
             <div class="flex flex-col lg:flex-row justify-center gap-10 lg:gap-32">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
+                <img class="md:max-w-[70%] sm:max-w-[70%] mx-auto" src="images/others/feature-bike.png" alt="">
+                <img class="md:max-w-[70%] sm:max-w-[70%] mx-auto" src="images/others/feature-bike.png" alt="">
+                <img class="md:max-w-[70%] sm:max-w-[70%] mx-auto" src="images/others/feature-bike.png" alt="">
             </div>
-        </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- latest section start -->
+        <section class="my-28 space-y-12">
+            <h3 class="text-center text-5xl font-semibold">Latest News</h3>
+
+            <div class="flex flex-col lg:flex-row justify-center gap-5">
+                <!-- card 1 -->
+                <div class="card card-compact lg:w-96 bg-base-100 shadow-xl ">
+                    <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+                    <div class="card-body ">
+                        <h2 class="card-title text-3xl font-semibold ">Ducati XDIAVEL S-73</h2>
+                        <p class="text-paragraph-clr text-sm font-normal  ">Lorem ipsum
+                            dolor
+                            sit amet,
+                            consectetur
+                            adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn border-1 border-primary-btn text-primary-btn hover:bg-primary-btn hover:text-white ">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card card-compact lg:w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl font-semibold ">Ducati XDIAVEL S-73</h2>
+                        <p class="text-paragraph-clr text-sm font-normal ">Lorem ipsum
+                            dolor sit amet,
+                            consectetur
+                            adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn border-1 border-primary-btn text-primary-btn hover:bg-primary-btn hover:text-white ">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card card-compact lg:w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl font-semibold ">Ducati XDIAVEL S-73</h2>
+                        <p class="text-paragraph-clr text-sm font-normal ">Lorem ipsum
+                            dolor sit amet,
+                            consectetur
+                            adipiscing elit. Lacus, fermentum amet faucibus sed
+                            id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button
+                                class="btn border-1 border-primary-btn text-primary-btn hover:bg-primary-btn hover:text-white  ">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- latest section end -->
 
     </main>
     <!-- main part end -->
